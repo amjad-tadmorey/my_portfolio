@@ -13,9 +13,9 @@ const AboutSection = () => {
         {/* Bio */}
         <div className="">
           <p className="text-justify">
-            I'm a detail-oriented Full Stack Web Developer specializing in the MERN Stack (MongoDB, Express.js, React, Node.js). I have hands-on experience building responsive, scalable, and user-friendly web applications.
+            I'm a passionate full-stack developer specialized in the MERN stack. I enjoy turning ideas into real products and always aim to write clean and efficient code. Currently, I'm open to freelance projects and full-time opportunities.
           </p>
-          
+
           <a href="/Amjad Ghassan.pdf" download><Button className="mt-5">Download CV</Button></a>
 
         </div>

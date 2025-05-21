@@ -21,9 +21,7 @@ export const reviews: Review[] = [
 The product selection is amazing and always up-to-date.
 Ordering is smooth and quick, with secure payment options.
 Customer support is friendly and really helpful.
-I’ve discovered so many new favorites thanks to the app.
-The delivery is fast and packaging is beautiful.
-Highly recommend to anyone looking for quality beauty products! 🔥`,
+I’ve discovered so many new favorites thanks to the app 🔥`,
   },
   // {
   //   author: {

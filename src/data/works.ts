@@ -96,7 +96,7 @@ export const works: Work[] = [
     Sed a libero. Vivamus consectetuer hendrerit lacus. Quisque ut nisi.Cum sociis natoque penatibus`,
     publishedAt: '01 July 2022',
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
-    previewUrl: 'https://pofology.bdlancers.com/',
+    previewUrl: 'https://mawjat.sa/',
     featureList: [
       '100% Fluid Responsive – Fits any device perfectly',
       'Tested on real devices',

@@ -5,12 +5,12 @@ interface Props {
   type?: 'button' | 'submit';
   className?: string;
   children: React.ReactNode;
-  onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
+
 }
 
-const Button: React.FC<Props> = ({ type = 'submit', children, className, onClick }) => {
+const Button: React.FC<Props> = ({ type = 'submit', children, className }) => {
   return (
-    <button onClick={onClick} type={type} className={classNames(['btn', className])}>
+    <button  type={type} className={classNames(['btn', className])}>
       {children}
     </button>
   );

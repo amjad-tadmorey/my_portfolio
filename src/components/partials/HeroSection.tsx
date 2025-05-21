@@ -54,7 +54,7 @@ const HeroSection = () => {
             </a>
           </Link>
         </div>
-        <a href="mailto:amjadtadmory@gmail.com" download><Button className="mt-5">Download CV</Button></a>
+        <a href="mailto:amjadtadmory@gmail.com" download><Button className="mt-5">Mail Me</Button></a>
       </div>
 
       <div className="absolute bottom-0 flex flex-col items-center ">

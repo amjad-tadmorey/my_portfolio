@@ -71,17 +71,17 @@ const Menu = () => {
         >
           {theme === Theme.LIGHT ? <BsMoonStars size={20} /> : <BsSun size={20} />}
         </button>
-        <button
+        {/* <button
           type="button"
           onClick={() => setSidebarOpen(!sidebarOpen)}
           className="ml-5 flex text-gray-700 dark:text-gray-200 md:hidden"
         >
           <HiMenuAlt3 size={24} />
-        </button>
+        </button> */}
       </div>
 
       {/* Mobile menu */}
-      <Transition.Root show={sidebarOpen} as={Fragment}>
+      {/* <Transition.Root show={sidebarOpen} as={Fragment}>
         <Dialog as="div" className="fixed inset-0 z-40 flex md:hidden" onClose={setSidebarOpen}>
           <Transition.Child
             as={Fragment}
@@ -168,10 +168,9 @@ const Menu = () => {
             </div>
           </Transition.Child>
           <div className="w-14 flex-shrink-0" aria-hidden="true">
-            {/* Dummy element to force sidebar to shrink to fit close icon */}
           </div>
         </Dialog>
-      </Transition.Root>
+      </Transition.Root> */}
     </header>
   );
 };

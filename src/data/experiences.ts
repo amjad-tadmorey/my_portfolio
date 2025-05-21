@@ -22,6 +22,6 @@ export const experiences: Experience[] = [
     company: 'Tekram Media (Remote)',
     startDate: 'Mar 2023',
     endDate: 'Mar 2024',
-    description: 'Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.',
+    description: 'Developed and maintained responsive web applications using React, HTML, CSS, and JavaScript, ensuring optimal user experience across various devices',
   },
 ];

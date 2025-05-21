@@ -6,14 +6,14 @@ export const educations: Education[] = [
     school: 'Udemy',
     startDate: 'Jan 2023',
     endDate: 'Mar 2023',
-    description: 'Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.',
+    description: 'This course covers everything from React basics to advanced development, Context API, React Query, Redux, and Tailwind CSS',
   },
   {
     degree: 'Programming with JavaScript',
     school: 'Udemy',
     startDate: 'Dec 2022',
     endDate: 'Jan 2023',
-    description: 'Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.',
+    description: 'A comprehensive course that teaches modern JavaScript (ES6+) from scratch to advanced level.',
   },
   {
     degree: 'Advanced CSS and Sass',

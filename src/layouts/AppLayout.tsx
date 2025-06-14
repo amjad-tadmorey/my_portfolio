@@ -17,6 +17,19 @@ const AppLayout: React.FC<Props> = ({ children, title }) => {
     <>
       <Head>
         <title>{pageTitle}</title>
+
+        {/* 👇 Open Graph / Social Preview Tags 👇 */}
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content="Check out my MERN Stack projects, experience, and more." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://my-portfolio-zeta-one-80.vercel.app/" />
+        <meta property="og:image" content="https://via.placeholder.com/1x1.png" />
+
+        {/* 👇 Optional Twitter tags (تجاهلها لو ما بدك) */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content="Check out my MERN Stack projects, experience, and more." />
+        <meta name="twitter:image" content="https://via.placeholder.com/1x1.png" />
       </Head>
       <div className="flex min-h-screen flex-col">
         <ScrollToTop
